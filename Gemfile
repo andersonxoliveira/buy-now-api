@@ -40,3 +40,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'net-smtp', require: false
+
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem 'rack-cors'
+
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'fast_jsonapi'
+gem 'active_model_serializers', '~> 0.10.6'
+gem 'active_model_serializers-jsonapi_embedded_records_deserializer'
