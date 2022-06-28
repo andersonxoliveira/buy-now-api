@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  code: MyString
+  stock: one
+  prince: 1.5
+
+two:
+  name: MyString
+  code: MyString
+  stock: two
+  prince: 1.5
